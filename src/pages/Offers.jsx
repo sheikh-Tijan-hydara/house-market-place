@@ -69,6 +69,7 @@ const Offers = () => {
             <Spinner />
         ) : listings && listings.length > 0 ? (
          <>
+         
              <main>
                 <ul className="categoryListings">
                     {listings.map((listing) => (
